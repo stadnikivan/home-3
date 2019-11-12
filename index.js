@@ -9,26 +9,25 @@ var a = (10, false, "google");
 }
 //2
 function userInfo() {
-	var registered = "Дата регистрации: ",
-		date = new Date,
-		str = "Незарегистрированный пользователь: ";
+	var registered = `Дата регистрации: `,
+		str = `Незарегистрированный пользователь: `;
 		if (registered = false) {
 			date = undefined;
 			return(alert(str)+name)
 		}
+        }
 	let user1 = {
 		name: "John",
-		registered: 2 == 1,
-		d: date,
-		getInfo: globalThis,
+		registered: true,
+		date: new Date(),
+		getInfo: userInfo,
 	};
 	let user2 = {
 		name: "Sergey",
-		registered: 2 != 1,
-		d: date,
-		getInfo: globalThis,
+		registered: false,
+		date: new Date(),
+		getInfo: userInfo,
 	};
-}
 userInfo.user1;
 userInfo.user2;
 //3
