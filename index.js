@@ -18,13 +18,13 @@ function userInfo() {
 		}
 	let user1 = {
 		name: "John",
-		register: 2 == 1,
+		registered: 2 == 1,
 		d: date,
 		getInfo: globalThis,
 	};
 	let user2 = {
 		name: "Sergey",
-		register: 2 != 1,
+		registered: 2 != 1,
 		d: date,
 		getInfo: globalThis,
 	};
